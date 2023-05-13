@@ -21,7 +21,7 @@ body {
    color: var(--mainBlack);
 }
 
-/* nav links */
+/** nav links **/
 .navbar-toggler {
    width: 30px;
    height: 20px;
@@ -107,7 +107,7 @@ body {
    }
 }
 
-/* background */
+/** background **/
 .max-height {
    min-height: calc(100vh - 76px);
    background: linear-gradient(var(--blueTrans), var(--blackTrans)), url('../img/explore.jpg');
@@ -144,7 +144,7 @@ body {
    }
 }
 
-/* Icons Section */
+/** Icons Section **/
 .icons {
    width: 75%;
    margin: auto;
@@ -180,7 +180,7 @@ body {
    }
 }
 
-/* Explore Section */
+/** Explore Section **/
 #explore {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -224,7 +224,7 @@ body {
    }
 }
 
-/* Destination and Tips Section */
+/** Destination and Tips Section **/
 .map {
    display: flex;
    flex-direction: column;
@@ -270,7 +270,7 @@ body {
    }
 }
 
-/* YouTube Section */
+/** YouTube Section **/
 .video {
    background: #ccc;
    padding: 35px 0px;
@@ -369,13 +369,13 @@ body {
    }
 }
 
-/* Bottom Banner Photo */
+/** Bottom Banner Photo **/
 .banner-photo {
    background: url('../img/sunset.jpeg') no-repeat center center/cover fixed;
    height: 100vh;
 }
 
-/* about section */
+/** about section **/
 .about {
    background: var(--mainYellow);
 }
@@ -401,7 +401,7 @@ body {
    left: 0;
 }
 
-/* Blog */
+/** Blog **/
 .blog {
    background: var(--mainGrey);
 }
@@ -445,18 +445,12 @@ body {
    transform: scale(1.2);
 }
 
-.contact-background {
-   background: var(--mainGrey);
-}
-
+/** CONTACT **/
 .contact-form {
    background: var(--mainBlue);
-   margin-top: 100px;
-   padding: 20px;
-   border-radius: 5px;
 }
 
-/* footer icons */
+/** footer icons **/
 .footer-icon {
    font-size: 1.5rem;
    text-decoration: none;
